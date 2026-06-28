@@ -98,17 +98,17 @@ sequenceDiagram
 ### 🌌 Desktop Workspace Dashboard
 *A premium glassmorphic workspace interface utilizing slow-moving ambient aurora blobs, displaying upload cards, statistics tracker, and AI Mode buttons.*
 
-![DocuMind AI Homepage](file:///C:/Users/Admin/.gemini/antigravity-ide/brain/2dced83b-f8d8-4d3d-b211-052325faea63/homepage_before_upload_1782045075366.png)
+![DocuMind AI Homepage](screenshots/homepage.png)
 
 ### 💬 Cited Chat Legibility & Reference Tooltips
 *High-contrast bubble text for dark mode readers. Shows compact source pills that pulse-highlight upon citation badge click.*
 
-![Cited Chat Layout](file:///C:/Users/Admin/.gemini/antigravity-ide/brain/2dced83b-f8d8-4d3d-b211-052325faea63/chat_ui_verified_1782039872874.png)
+![Cited Chat Layout](screenshots/chat_layout.png)
 
 ### 👥 Developer Portfolio Footer Profile
 *Modern links containing Lucide icons with smooth transitions pointing to GitHub, LinkedIn, and Portfolio.*
 
-![Developer Footer](file:///C:/Users/Admin/.gemini/antigravity-ide/brain/2dced83b-f8d8-4d3d-b211-052325faea63/footer_final_verification_1782041026641.png)
+![Developer Footer](screenshots/footer.png)
 
 ---
 
