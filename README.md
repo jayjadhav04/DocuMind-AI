@@ -33,37 +33,6 @@ The client extracts text from PDFs locally, splits it into overlapping chunks, g
 
 ---
 
-## 🎨 Architecture Diagram
-
-The diagrams below demonstrate the stateless retrieval architecture compared to conventional server RAG:
-
-```mermaid
-graph TD
-    %% User Action
-    User[User Uploads PDF] -->|1. Parse locally| PDFWorker[Mozilla PDF.js Worker]
-    PDFWorker -->|2. Array of Page Text| ChunkLogic[Adaptive Page-Aware Chunking]
-    
-    %% Indexing
-    subgraph Browser Client (Local Vector Engine)
-        ChunkLogic -->|3. Overlapping Chunks| ONNX[transformers.js Wasm Model]
-        ONNX -->|4. Generate 384-Dim Embeddings| IndexedDB[(IndexedDB Cache)]
-        ONNX -->|5. Store Chunk Vectors| StateCache[(In-Memory React State)]
-    end
-    
-    %% Query & Retrieval
-    UserQuery[User Question] -->|6. Local Query Vectorization| ONNX
-    ONNX -->|7. Cosine Similarity Matching| Cosine[In-Memory Similarity Engine]
-    StateCache --> Cosine
-    Cosine -->|8. Retrieve Top 5 Chunks| Payload[Pre-retrieved Text Context]
-    
-    %% Completion
-    Payload -->|9. Post Context + Query| NextRoute[Next.js API Route /api/chat]
-    NextRoute -->|10. System Persona Instruction| Gemini[Google Gemini 2.5 Flash]
-    Gemini -->|11. Generate Answer| UserView[Render Cited Answer in Chat]
-```
-
----
-
 ## 🔄 Workflow
 
 ```mermaid
