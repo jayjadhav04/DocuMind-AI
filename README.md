@@ -14,6 +14,11 @@ The client extracts text from PDFs locally, splits it into overlapping chunks, g
 
 ---
 
+## 🚀 Demo Link
+🔗 https://docu-mind-ai-olive-six.vercel.app/
+
+---
+
 ## ✨ Features
 
 *   **📂 Multi-PDF Parsing & Processing**: Upload several PDF documents simultaneously. Parsing is performed locally via a fast Mozilla `pdf.js` worker.
