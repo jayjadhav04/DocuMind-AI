@@ -149,18 +149,6 @@ DocuMind AI is engineered to run 100% database-free, making it extremely cost-ef
 
 ---
 
-## 📝 Resume Points & Interview Talking Points
-
-Add these high-impact, ATS-optimized bullet points directly to your software engineering resume:
-
-*   **Stateless Browser RAG Architecture**: Engineered a production-ready, database-free RAG application using Next.js 15, React 19, and TypeScript, generating embeddings and similarity indexes entirely on the client side via WebAssembly (ONNX).
-*   **API Cost Optimization & Rate-Limit Prevention**: Eliminated 100% of server-side embedding API fees and prevented Gemini 429 quota limits by implementing client-side vector search, caching the model (~30MB) locally in browser IndexedDB.
-*   **Adaptive Page-Aware Chunking Engine**: Coded an adaptive chunking utility in TypeScript that automatically scales chunk boundaries (from 800 to 2500 characters) depending on file page counts to optimize client memory limits and ensure 100% citation accuracy.
-*   **Real-time Cosine Similarity search**: Authored a custom in-memory vector search library to execute cosine similarity calculations locally, reducing payload sizes sent to serverless Next.js functions from megabytes to kilobytes.
-*   **Interactive Source Citation Navigation**: Designed a high-fidelity UI using Tailwind CSS featuring dynamic dark mode contrast syncing, floating ambient blur animations, and custom scroll-to-pulse inline citation navigation.
-
----
-
 ## 📄 Info & Contact
 
 Designed & Developed by **Jay Jadhav**.
