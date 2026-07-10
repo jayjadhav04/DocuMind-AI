@@ -15,7 +15,7 @@ The client extracts text from PDFs locally, splits it into overlapping chunks, g
 ---
 
 ## 🚀 Demo Link
-🔗 https://docu-mind-ai-olive-six.vercel.app/
+### 🔗 https://docu-mind-ai-olive-six.vercel.app/
 
 ---
 
