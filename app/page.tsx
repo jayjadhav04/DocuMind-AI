@@ -123,7 +123,7 @@ export default function Home() {
               {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <div className={`hidden md:flex flex-col text-right ${darkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-              <span className="text-xs font-bold text-slate-300">RAG Portfolio Standard</span>
+              <span className="text-xs font-bold text-slate-300">5 AI Workspaces</span>
               <span className="text-[10px] font-mono opacity-75">Stateless RAG Core</span>
             </div>
           </div>
